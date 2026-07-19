@@ -6,7 +6,7 @@ using namespace std;
 
 class Person{
 protected:
-    int id;
+    string id;
     string name;
 
 public:
@@ -493,6 +493,6 @@ int main(){
         }
 
     } while (choice != 20);
-
+        
     return 0;
 }
